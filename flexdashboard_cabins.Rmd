@@ -372,7 +372,7 @@ gg <- ggplot() +
                                                     "</br>Cabin type: ", cabin_size,
                                                     "</br>SLVD: ", slvd,
                                                     "</br>Listing type: ", type,
-                                                    "</br>Market: ", market))), size = .6) +
+                                                    "</br>Market: ", market))), size = 1) +
   scale_color_gradient2(low = 'steelblue3', mid = "goldenrod1", midpoint = .5, high = 'red',
                         na.value = "grey90",
                         breaks = 0:1, labels = c("Low", "High"), limits = 0:1) +
@@ -438,7 +438,7 @@ gg <- ggplot() +
                                                     "</br>Cabin type: ", cabin_size,
                                                     "</br>SLVD: ", slvd,
                                                     "</br>Listing type: ", type,
-                                                    "</br>Market: ", market))), size = .6) +
+                                                    "</br>Market: ", market))), size = 1) +
   scale_color_gradient2(low = 'steelblue3', mid = "goldenrod1", midpoint = .5, high = 'red',
                         na.value = "grey90",
                         breaks = 0:1, labels = c("Low", "High"), limits = 0:1) +
